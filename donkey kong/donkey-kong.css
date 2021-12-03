@@ -1,0 +1,39 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    /* height: 921px; */
+    background-size: cover;
+    /* background-position: top left; */
+}
+#dk {
+    background-image: url(dk.gif);
+    width: 174px;
+    height: 156px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    /* bottom: 86px; */
+    /* scroll-behavior: sticky; */
+    transform: rotatey(180deg);
+    z-index: 20;
+    /* border: solid crimson; */
+    
+}
+#banana {
+    width: 97px;
+    height: 96px;
+    position: absolute;
+    bottom: 131px;
+    background-size: cover;
+    z-index: 10;
+    border: solid blueviolet;
+}
+#counter {
+    border: solid chartreuse;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 900px;
+    font-size: 80px;
+}
